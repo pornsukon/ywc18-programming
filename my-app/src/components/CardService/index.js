@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from "react";
-import halfLogo from "../../assets/images/halfhalf-logo.png";
-import { makeStyles, Theme, createStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import { Card, Avatar, Button } from "antd";
 import "antd/dist/antd.css";
-import LocationOnIcon from "@material-ui/icons/LocationOn";
 import axios from "axios";
-import SearchIcon from "@material-ui/icons/Search";
 import car from "../../assets/images/ที่จอดรถ.png";
 import book from "../../assets/images/รับจองล่วงหน้า.png";
 import deliver from "../../assets/images/บริการจัดส่งอาหาร.png";
