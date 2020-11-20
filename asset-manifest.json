@@ -1,26 +1,27 @@
 {
   "files": {
     "main.css": "/ywc18-programming/static/css/main.523f09c5.chunk.css",
-    "main.js": "/ywc18-programming/static/js/main.e3a12f26.chunk.js",
-    "main.js.map": "/ywc18-programming/static/js/main.e3a12f26.chunk.js.map",
+    "main.js": "/ywc18-programming/static/js/main.1bcfc04a.chunk.js",
+    "main.js.map": "/ywc18-programming/static/js/main.1bcfc04a.chunk.js.map",
     "runtime-main.js": "/ywc18-programming/static/js/runtime-main.fc7d86f2.js",
     "runtime-main.js.map": "/ywc18-programming/static/js/runtime-main.fc7d86f2.js.map",
     "static/css/2.405d60bc.chunk.css": "/ywc18-programming/static/css/2.405d60bc.chunk.css",
-    "static/js/2.b6415978.chunk.js": "/ywc18-programming/static/js/2.b6415978.chunk.js",
-    "static/js/2.b6415978.chunk.js.map": "/ywc18-programming/static/js/2.b6415978.chunk.js.map",
+    "static/js/2.a17c3f9b.chunk.js": "/ywc18-programming/static/js/2.a17c3f9b.chunk.js",
+    "static/js/2.a17c3f9b.chunk.js.map": "/ywc18-programming/static/js/2.a17c3f9b.chunk.js.map",
     "index.html": "/ywc18-programming/index.html",
-    "precache-manifest.6c030eb3f2cf8fcbf12c2c73854aeace.js": "/ywc18-programming/precache-manifest.6c030eb3f2cf8fcbf12c2c73854aeace.js",
+    "precache-manifest.57ee7dc05e3c1a25767f0d9614907062.js": "/ywc18-programming/precache-manifest.57ee7dc05e3c1a25767f0d9614907062.js",
     "service-worker.js": "/ywc18-programming/service-worker.js",
     "static/css/2.405d60bc.chunk.css.map": "/ywc18-programming/static/css/2.405d60bc.chunk.css.map",
     "static/css/main.523f09c5.chunk.css.map": "/ywc18-programming/static/css/main.523f09c5.chunk.css.map",
-    "static/js/2.b6415978.chunk.js.LICENSE.txt": "/ywc18-programming/static/js/2.b6415978.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/ywc18-programming/static/media/logo.ee7cd8ed.svg"
+    "static/js/2.a17c3f9b.chunk.js.LICENSE.txt": "/ywc18-programming/static/js/2.a17c3f9b.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/ywc18-programming/static/media/logo.ee7cd8ed.svg",
+    "static/media/result-bg.png": "/ywc18-programming/static/media/result-bg.f8cbd8d6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fc7d86f2.js",
     "static/css/2.405d60bc.chunk.css",
-    "static/js/2.b6415978.chunk.js",
+    "static/js/2.a17c3f9b.chunk.js",
     "static/css/main.523f09c5.chunk.css",
-    "static/js/main.e3a12f26.chunk.js"
+    "static/js/main.1bcfc04a.chunk.js"
   ]
 }
