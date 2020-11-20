@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import SearchMerchant from "./pages/SearchMerchant";
+
 ReactDOM.render(
   <React.StrictMode>
-    <p>Hello World</p>
+    <SearchMerchant/>
   </React.StrictMode>,
   document.getElementById('root')
 );
