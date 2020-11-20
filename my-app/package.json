@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://pornsukon.github.io/ywc18-programming/",
   "dependencies": {
+    "@ant-design/icons": "^4.3.0",
     "@ibm/plex": "^5.1.3",
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",

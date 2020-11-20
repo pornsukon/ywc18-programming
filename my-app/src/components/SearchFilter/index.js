@@ -2,29 +2,24 @@ import Paper from "@material-ui/core/Paper";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
 import "antd/dist/antd.css";
 import { Radio, Select, Button } from "antd";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState,FC,Props } from "react";
 import { makeStyles, Theme, createStyles } from "@material-ui/core/styles";
 import axios from "axios";
 import { InputNumber } from "antd";
 
 const useStyles = makeStyles((theme) => ({
   searchfilter: {
-    width: "25%",
+    maxWidth: 600,
     height: "100%",
     marginLeft: "1%",
   },
 }));
 
-const SearchFilter = () => {
+const SearchFilter = ({ setSearchvalue }) => {
   const classes = useStyles();
   const [value, setValue] = React.useState("ทั้งหมด");
   const [subvalue, setSubvalue] = React.useState("ทั้งหมด");
 
-  const options = [
-    { value: "chocolate", label: "Chocolate" },
-    { value: "strawberry", label: "Strawberry" },
-    { value: "vanilla", label: "Vanilla" },
-  ];
   const [categories, setCategories] = useState();
   const [province, setProvince] = useState();
   const [priceRange, setPriceRange] = useState();
@@ -48,6 +43,7 @@ const SearchFilter = () => {
 
   const handleChange = (event) => {
     setValue(event.target.value);
+    setSearchvalue(event.target.value)
   };
 
   const handleChangeSubValue = (event) => {
